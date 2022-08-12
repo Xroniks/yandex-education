@@ -1,0 +1,25 @@
+{
+  "name": "yandex-education",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.hbs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xroniks/yandex-education.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xroniks/yandex-education/issues"
+  },
+  "homepage": "https://github.com/Xroniks/yandex-education#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@anikin/parcel-transformer-handlebars": "^1.0.9",
+    "parcel": "^2.7.0"
+  }
+}
