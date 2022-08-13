@@ -1,0 +1,48 @@
+body {
+  background-color: #57f18a;
+  margin: 0;
+}
+
+main {
+  width: auto;
+  height: 100vh;
+  margin: 0;
+  background-color: red;
+}
+
+.chatWindow {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 3fr 10fr;
+  grid-template-rows: 1fr 15fr;
+  background-color: aquamarine;
+  margin: 0;
+}
+
+.dialogsBlockHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #186bb9;
+}
+
+.dialogsBlockItems {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+}
+
+.messagesBlockHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2acbd6;
+}
+
+.messagesBlockWindowChat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cca4a4;
+}
