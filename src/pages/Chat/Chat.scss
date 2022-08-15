@@ -1,4 +1,3 @@
-
 body {
   background-color: #57f18a;
   margin: 0;
@@ -14,14 +13,16 @@ main {
 .chatWindow {
   display: grid;
   height: 100%;
-  grid-template-columns: 3fr 10fr;
+
   grid-template-rows: 1fr 15fr;
+  grid-template-columns: 3fr 10fr;
   background-color: aquamarine;
   margin: 0;
 }
 
 .dialogsBlockHeader {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #186bb9;
@@ -31,7 +32,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: red;
+  background-color: rgb(141, 245, 141);
 }
 
 .messagesBlockHeader {
@@ -43,7 +44,29 @@ main {
 
 .messagesBlockWindowChat {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #cca4a4;
+}
+
+.button {
+  text-align: center;
+}
+
+.button button {
+  background-color: #0088cc;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  width: 100%;
+  line-height: 0.5;
+  padding: 15px 34px;
+  align-items: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
 }

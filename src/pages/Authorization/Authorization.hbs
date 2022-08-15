@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Authorization.scss" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="authorizationBlock">
+      <div class="authorizationBlockTitle">
+        <h1>МОЙ ЧАТ</h1>
+      </div>
+
+      <div class="inputArea">
+        <label class="inputAreaLabel" for="login">Логин</label>
+        <input
+          class="inputAreaInput"
+          type="text"
+          name="login"
+          id="login"
+          placeholder="Введите логин"
+          value=""
+        />
+
+        <label class="inputAreaLabel" for="password">Пароль</label>
+        <input
+          class="inputAreaInput"
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Введите пароль"
+          value=""
+        />
+
+        <a class="button" href="/src/pages/Chat/Chat.hbs">
+          <button type="submit">Войти</button>
+        </a>
+
+        <a class="button" href="/src/pages/Registration/Registration.hbs">
+          <button type="submit">Зарегистрироваться</button>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>

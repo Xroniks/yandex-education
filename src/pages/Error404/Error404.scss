@@ -1,0 +1,41 @@
+body {
+  background-color: azure;
+}
+
+.error404Block {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -250px 0 0 -250px;
+  text-align: center;
+}
+
+.error404BlockTitle h1 {
+  font-size: 50px;
+}
+
+.error404BlockText p {
+  font-size: 20px;
+}
+
+.button {
+  text-align: center;
+}
+
+.button button {
+  background-color: #0088cc;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  width: 80%;
+  line-height: 0.5;
+  padding: 15px 34px;
+  align-items: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 15px;
+  cursor: pointer;
+}
