@@ -2,12 +2,10 @@
   "name": "yandex-education",
   "version": "1.0.0",
   "description": "",
-
-
-
   "scripts": {
-    "dev": "parcel src/pages/Chat/index.hbs --port 3000",
-    "build": "parcel build src/pages/Chat/index.hbs",
+    "dev": "parcel src/pages/Chat/index.pug --port 3000",
+    "start": "parcel src/pages/Chat/index.pug --port 3000",
+    "build": "parcel build src/pages/Chat/index.pug",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,7 +23,11 @@
   },
   "devDependencies": {
     "@anikin/parcel-transformer-handlebars": "^1.0.9",
+    "@parcel/transformer-pug": "^2.7.0",
     "@parcel/transformer-sass": "^2.7.0",
-    "parcel": "^2.7.0"
+    "@prettier/plugin-pug": "^2.2.0",
+    "parcel": "^2.7.0",
+    "prettier": "^2.7.1",
+    "pug": "^3.0.2"
   }
 }
